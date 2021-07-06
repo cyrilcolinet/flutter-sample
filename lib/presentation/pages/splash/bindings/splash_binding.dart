@@ -1,12 +1,9 @@
 import 'package:get/get.dart';
-import 'package:wattway_by_colas/application/splash/splash_controller.dart';
+import 'package:flutter_sample_seed/application/splash_controller.dart';
 
 class SplashBinding implements Bindings {
   @override
   void dependencies() {
-    Get.put<SplashController>(SplashController(
-      bluetoothService: Get.find(),
-      firebaseService: Get.find(),
-    ));
+    Get.put<SplashController>(SplashController());
   }
 }

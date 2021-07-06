@@ -3,9 +3,9 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
-import 'package:wattway_by_colas/presentation/core/theme/app_colors.dart';
-import 'package:wattway_by_colas/presentation/core/utils/assets_utils.dart';
-import 'package:wattway_by_colas/presentation/core/utils/keyboard_utils.dart';
+import 'package:flutter_sample_seed/presentation/core/theme/app_colors.dart';
+import 'package:flutter_sample_seed/presentation/core/utils/assets_utils.dart';
+import 'package:flutter_sample_seed/presentation/core/utils/keyboard_utils.dart';
 
 class SnackBarUtils {
   static void success({
@@ -23,7 +23,8 @@ class SnackBarUtils {
       snackPosition: SnackPosition.TOP,
       duration: const Duration(seconds: 3),
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-      margin: EdgeInsets.symmetric(horizontal: 10, vertical: keyboardIsOpen ? 20 : 0),
+      margin: EdgeInsets.symmetric(
+          horizontal: 10, vertical: keyboardIsOpen ? 20 : 0),
       icon: Lottie.asset(
         AssetsUtils.animation('success'),
         height: 30,
@@ -52,7 +53,8 @@ class SnackBarUtils {
       overlayBlur: 0,
       duration: const Duration(seconds: 3),
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-      margin: EdgeInsets.symmetric(horizontal: 10, vertical: keyboardIsOpen ? 20 : 0),
+      margin: EdgeInsets.symmetric(
+          horizontal: 10, vertical: keyboardIsOpen ? 20 : 0),
       icon: Lottie.asset(
         AssetsUtils.animation('success'),
         height: 30,
@@ -81,7 +83,8 @@ class SnackBarUtils {
       overlayBlur: 0,
       duration: const Duration(seconds: 3),
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-      margin: EdgeInsets.symmetric(horizontal: 10, vertical: keyboardIsOpen ? 20 : 0),
+      margin: EdgeInsets.symmetric(
+          horizontal: 10, vertical: keyboardIsOpen ? 20 : 0),
       icon: Lottie.asset(
         AssetsUtils.animation('error'),
         height: 30,
@@ -109,7 +112,8 @@ class SnackBarUtils {
       snackPosition: SnackPosition.TOP,
       duration: const Duration(seconds: 3),
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-      margin: EdgeInsets.symmetric(horizontal: 10, vertical: keyboardIsOpen ? 20 : 0),
+      margin: EdgeInsets.symmetric(
+          horizontal: 10, vertical: keyboardIsOpen ? 20 : 0),
       icon: Lottie.asset(
         AssetsUtils.animation('error'),
         height: 50,

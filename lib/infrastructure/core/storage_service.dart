@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:wattway_by_colas/presentation/core/utils/logger_utils.dart';
+import 'package:flutter_sample_seed/presentation/core/utils/logger_utils.dart';
 
 class StorageService extends GetxService {
   final GetStorage box = GetStorage();
@@ -9,4 +9,13 @@ class StorageService extends GetxService {
     Logger.write('$runtimeType ready!');
     return this;
   }
+
+  /// Methods that get token or other
+  ///
+  /// Example: read the access token previously stored
+  /// in the box storage
+  ///
+  /// String getAccessToken() {
+  ///   return box.read('accessToken');
+  /// }
 }

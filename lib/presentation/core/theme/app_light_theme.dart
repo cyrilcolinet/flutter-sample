@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:wattway_by_colas/presentation/core/theme/app_colors.dart';
-import 'package:wattway_by_colas/presentation/core/theme/app_fonts.dart';
+import 'package:flutter_sample_seed/presentation/core/theme/app_colors.dart';
+import 'package:flutter_sample_seed/presentation/core/theme/app_fonts.dart';
 
 final ThemeData lightTheme = ThemeData(
   backgroundColor: Color(fillColor),

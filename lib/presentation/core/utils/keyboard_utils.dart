@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/widgets.dart';
 
 class KeyboardUtils {
   static void hide(BuildContext context) {
@@ -8,5 +8,6 @@ class KeyboardUtils {
     }
   }
 
-  static bool isShowing(BuildContext context) => !(MediaQuery.of(context).viewInsets.bottom == 0.0);
+  static bool isShowing(BuildContext context) =>
+      !(MediaQuery.of(context).viewInsets.bottom == 0.0);
 }

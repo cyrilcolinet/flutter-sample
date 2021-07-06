@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wattway_by_colas/presentation/core/theme/app_colors.dart';
+import 'package:flutter_sample_seed/presentation/core/theme/app_colors.dart';
 
 class FontStyles {
   static const TextStyle futuraFont = TextStyle(

@@ -1,12 +1,12 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_sample_seed/application/splash_controller.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:wattway_by_colas/application/splash/splash_controller.dart';
-import 'package:wattway_by_colas/presentation/core/theme/app_colors.dart';
-import 'package:wattway_by_colas/presentation/core/utils/assets_utils.dart';
-import 'package:wattway_by_colas/presentation/shared/get_view_with_hook.dart';
+import 'package:flutter_sample_seed/presentation/core/theme/app_colors.dart';
+import 'package:flutter_sample_seed/presentation/core/utils/assets_utils.dart';
+import 'package:flutter_sample_seed/presentation/shared/get_view_with_hook.dart';
 
 class SplashPage extends GetViewWithHook<SplashController> {
   @override
