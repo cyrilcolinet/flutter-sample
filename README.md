@@ -51,7 +51,7 @@ flutter pub get
 To add missing files in the project, you need to generate these files with the following command:
 
 ```bash
-flutter packages pub run build_runner
+flutter packages pub run build_runner --delete-conflicting-outputs
 ```
 #  2. Development guidelines
 
