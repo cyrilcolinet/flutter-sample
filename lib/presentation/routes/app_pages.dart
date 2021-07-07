@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_sample_seed/infrastructure/core/middleware/auth_middleware.dart';
 import 'package:get/get.dart';
 import 'package:flutter_sample_seed/presentation/pages/auth/bindings/signin_binding.dart';
 import 'package:flutter_sample_seed/presentation/pages/auth/sign_in_page.dart';
@@ -20,13 +21,11 @@ class AppPages {
       name: Routes.signin,
       page: () => SigninPage(),
       binding: SigninBinding(),
-      transition: Get.previousRoute == Routes.splash
-          ? Transition.rightToLeft
-          : Transition.leftToRight,
+      transition:
+          Get.previousRoute == Routes.splash ? Transition.rightToLeft : Transition.leftToRight,
     ),
-    GetPage(
-      name: Routes.home,
-      page: () => Container(),
-    ),
+    GetPage(name: Routes.home, page: () => Container(), middlewares: [
+      AuthMiddleware(),
+    ]),
   ];
 }
