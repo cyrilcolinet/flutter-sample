@@ -1,11 +1,11 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:lottie/lottie.dart';
 import 'package:flutter_sample_seed/presentation/core/theme/app_colors.dart';
 import 'package:flutter_sample_seed/presentation/core/utils/assets_utils.dart';
 import 'package:flutter_sample_seed/presentation/core/utils/keyboard_utils.dart';
+import 'package:get/get.dart';
+import 'package:lottie/lottie.dart';
 
 class SnackBarUtils {
   static void success({

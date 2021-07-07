@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:flutter_sample_seed/presentation/core/theme/app_colors.dart';
+import 'package:get/get.dart';
 
 class AuthTitleRedirect extends StatelessWidget {
   AuthTitleRedirect({

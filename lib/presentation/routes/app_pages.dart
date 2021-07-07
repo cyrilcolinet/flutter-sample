@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_sample_seed/infrastructure/core/middleware/auth_middleware.dart';
-import 'package:get/get.dart';
 import 'package:flutter_sample_seed/presentation/pages/auth/bindings/signin_binding.dart';
 import 'package:flutter_sample_seed/presentation/pages/auth/sign_in_page.dart';
 import 'package:flutter_sample_seed/presentation/pages/splash/bindings/splash_binding.dart';
 import 'package:flutter_sample_seed/presentation/pages/splash/splash_page.dart';
+import 'package:get/get.dart';
 
 part 'app_routes.dart';
 

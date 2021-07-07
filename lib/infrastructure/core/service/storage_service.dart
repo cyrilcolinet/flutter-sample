@@ -1,6 +1,6 @@
+import 'package:flutter_sample_seed/presentation/core/utils/logger_utils.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:flutter_sample_seed/presentation/core/utils/logger_utils.dart';
 
 class StorageService extends GetxService {
   final GetStorage box = GetStorage();

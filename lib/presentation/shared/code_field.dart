@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
-import 'package:get/get.dart';
 import 'package:flutter_sample_seed/presentation/core/theme/app_colors.dart';
 import 'package:flutter_sample_seed/presentation/core/theme/app_fonts.dart';
+import 'package:get/get.dart';
 
 class CodeField extends StatelessWidget {
   CodeField({

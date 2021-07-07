@@ -1,9 +1,9 @@
 import 'package:ferry/ferry.dart';
 import 'package:ferry_hive_store/ferry_hive_store.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_sample_seed/infrastructure/core/graphql/http_auth_link.dart';
 import 'package:flutter_sample_seed/infrastructure/core/service/token_service.dart';
 import 'package:flutter_sample_seed/presentation/core/utils/logger_utils.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:get/get.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 

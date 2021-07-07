@@ -1,10 +1,10 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:flutter_sample_seed/presentation/core/utils/assets_utils.dart';
 import 'package:flutter_sample_seed/presentation/core/utils/keyboard_utils.dart';
 import 'package:flutter_sample_seed/presentation/pages/auth/widgets/sign_in_body.dart';
 import 'package:flutter_sample_seed/presentation/shared/auth_layout.dart';
+import 'package:flutter_svg/svg.dart';
 
 class SigninPage extends StatelessWidget {
   @override

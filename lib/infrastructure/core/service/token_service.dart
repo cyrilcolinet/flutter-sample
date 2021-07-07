@@ -4,7 +4,6 @@ import 'package:flutter_sample_seed/infrastructure/core/service/storage_service.
 import 'package:flutter_sample_seed/presentation/core/utils/date_utils.dart';
 import 'package:flutter_sample_seed/presentation/core/utils/logger_utils.dart';
 import 'package:flutter_sample_seed/presentation/routes/app_pages.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart' as DotEnv;
 import 'package:get/get.dart';
 import 'package:jwt_decoder/jwt_decoder.dart';
 
