@@ -2,12 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/date_symbol_data_local.dart';
-import 'package:wattway_by_colas/presentation/core/bindings/app_bindings.dart';
-import 'package:wattway_by_colas/presentation/core/theme/app_colors.dart';
-import 'package:wattway_by_colas/presentation/core/theme/app_light_theme.dart';
-import 'package:wattway_by_colas/presentation/core/translations/app_translations.dart';
-import 'package:wattway_by_colas/presentation/core/utils/logger_utils.dart';
-import 'package:wattway_by_colas/presentation/routes/app_pages.dart';
+import 'package:flutter_sample_seed/presentation/core/bindings/app_bindings.dart';
+import 'package:flutter_sample_seed/presentation/core/theme/app_colors.dart';
+import 'package:flutter_sample_seed/presentation/core/theme/app_light_theme.dart';
+import 'package:flutter_sample_seed/presentation/core/translations/app_translations.dart';
+import 'package:flutter_sample_seed/presentation/core/utils/logger_utils.dart';
+import 'package:flutter_sample_seed/presentation/routes/app_pages.dart';
 
 class AppWidget extends StatelessWidget {
   @override
